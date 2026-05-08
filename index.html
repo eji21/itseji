@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edgie Mae P. Baylon — BS IT Graduate, Web Developer & Photographer based in Mindanao, Philippines.">
+  <title>Edgie Mae P. Baylon — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     INLINE SVG ICON SPRITES — zero dependency, works offline
+     ============================================================ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+  </symbol>
+  <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+  </symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/>
+  </symbol>
+  <symbol id="i-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+  </symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="6 9 12 15 18 9"/>
+  </symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-4 0v2"/>
+  </symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>
+  </symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+  </symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+  </symbol>
+  <symbol id="i-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/>
+    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/>
+    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+  </symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+  </symbol>
+  <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4"/>
+    <line x1="8" y1="6" x2="8.01" y2="6"/><line x1="16" y1="6" x2="16.01" y2="6"/>
+    <line x1="12" y1="6" x2="12.01" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/>
+    <line x1="16" y1="10" x2="16.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/>
+    <line x1="8" y1="14" x2="8.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/>
+  </symbol>
+  <symbol id="i-store" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 9l1-5h16l1 5"/><path d="M3 9a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0"/>
+    <path d="M5 11v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9"/><rect x="9" y="14" width="6" height="6"/>
+  </symbol>
+  <symbol id="i-landmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/>
+    <line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/>
+    <line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7 12 2"/>
+  </symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+  </symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+  </symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+  </symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  </symbol>
+  <symbol id="i-gh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  </symbol>
+  <symbol id="i-li" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+    <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+  </symbol>
+</svg>
+
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav>
+  <a href="#hero" class="nav-logo">EM</a>
+
+  <button class="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Portfolio — 2025</div>
+
+    <h1 class="hero-name">
+      Edgie Mae<br><em>P. Baylon</em>
+    </h1>
+
+    <div class="hero-roles">
+      <span class="role-pill">
+        <svg class="ic" width="13" height="13" style="color:var(--peach)"><use href="#i-code"/></svg>
+        Web Developer
+      </span>
+      <span class="role-pill">
+        <svg class="ic" width="13" height="13" style="color:var(--peach)"><use href="#i-grad"/></svg>
+        BS IT Graduate
+      </span>
+      <span class="role-pill">
+        <svg class="ic" width="13" height="13" style="color:var(--peach)"><use href="#i-camera"/></svg>
+        Photographer
+      </span>
+    </div>
+
+    <p class="hero-desc">
+      I build web systems that work beautifully — and see the world through a lens that captures what most people miss. Bringing technical precision and creative vision to everything I make.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">
+        <svg class="ic" width="16" height="16"><use href="#i-arrow-down"/></svg>
+        View My Work
+      </a>
+      <a href="#contact" class="btn btn-outline">
+        <svg class="ic" width="16" height="16"><use href="#i-mail"/></svg>
+        Get In Touch
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <svg class="ic" width="14" height="14" style="color:var(--muted)"><use href="#i-chevron"/></svg>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about">
+  <div class="section-inner fade-in">
+    <div class="section-label">About me</div>
+    <h2 class="section-title">Code meets creativity.</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm Edgie Mae — a 23-year-old BS Information Technology graduate from Dr. Aurelio Mendoza Memorial Colleges, specializing in programming and web systems development. I love building things that are both functional and beautiful.
+        </p>
+        <p>
+          Beyond the keyboard, I'm a former freelance photographer with a keen eye for composition and light. That same aesthetic sense carries into my design work — whether I'm crafting a UI, editing a video, or troubleshooting a system.
+        </p>
+        <p>
+          I thrive in environments where I can learn fast, lead when needed, and build solutions that actually matter to people.
+        </p>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg class="ic" width="22" height="22" style="color:var(--peach)"><use href="#i-bag"/></svg>
+          </div>
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Years experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg class="ic" width="22" height="22" style="color:var(--peach)"><use href="#i-grad"/></svg>
+          </div>
+          <div class="stat-num">BS IT</div>
+          <div class="stat-label">Programming major</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg class="ic" width="22" height="22" style="color:var(--peach)"><use href="#i-camera"/></svg>
+          </div>
+          <div class="stat-num">Lens</div>
+          <div class="stat-label">Freelance photographer</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg class="ic" width="22" height="22" style="color:var(--peach)"><use href="#i-layers"/></svg>
+          </div>
+          <div class="stat-num">3</div>
+          <div class="stat-label">Concurrent roles held</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SKILLS
+     ============================================================ -->
+<section id="skills">
+  <div class="section-inner fade-in">
+    <div class="section-label">What I work with</div>
+    <h2 class="section-title">Skills &amp; tools.</h2>
+
+    <div class="skills-grid">
+      <div>
+        <div class="skill-group-title">
+          <svg class="ic" width="14" height="14"><use href="#i-globe"/></svg>
+          Web development
+        </div>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title">
+          <svg class="ic" width="14" height="14"><use href="#i-tool"/></svg>
+          Productivity &amp; tools
+        </div>
+        <div class="skill-tags">
+          <span class="tag">MS Excel</span>
+          <span class="tag">MS Word</span>
+          <span class="tag">Google Workspace</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title">
+          <svg class="ic" width="14" height="14"><use href="#i-palette"/></svg>
+          Creative
+        </div>
+        <div class="skill-tags">
+          <span class="tag">Graphic Design</span>
+          <span class="tag">Video Editing</span>
+          <span class="tag">Photography</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title">
+          <svg class="ic" width="14" height="14"><use href="#i-users"/></svg>
+          Soft skills
+        </div>
+        <div class="skill-tags">
+          <span class="tag">Leadership</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Fast learner</span>
+          <span class="tag">Multitasking</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     EXPERIENCE
+     ============================================================ -->
+<section id="experience">
+  <div class="section-inner fade-in">
+    <div class="section-label">Career timeline</div>
+    <h2 class="section-title">Where I've worked.</h2>
+
+    <div class="exp-list">
+
+      <div class="exp-item">
+        <div class="exp-date">Nov 2025 – Mar 2026</div>
+        <div>
+          <div class="exp-role">OJT Intern</div>
+          <div class="exp-company">
+            <svg class="ic" width="13" height="13"><use href="#i-building"/></svg>
+            Department of Agrarian Reform P.O. · Ipil, Zamboanga Sibugay
+          </div>
+          <div class="exp-desc">
+            Gained hands-on government office experience, applying IT skills in a real-world public service setting and supporting day-to-day digital operations.
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Feb 2024 – Jul 2025</div>
+        <div>
+          <div class="exp-role">Graphic Designer</div>
+          <div class="exp-company">
+            <svg class="ic" width="13" height="13"><use href="#i-store"/></svg>
+            Macky's Food Hub – Siomai King · Kabasalan, Zamboanga Sibugay
+          </div>
+          <div class="exp-desc">
+            Designed marketing materials, branding assets, and promotional visuals — balancing creativity with the commercial goals of a growing food business.
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Nov 2023 – Present</div>
+        <div>
+          <div class="exp-role">SK Secretary</div>
+          <div class="exp-company">
+            <svg class="ic" width="13" height="13"><use href="#i-landmark"/></svg>
+            Sangguniang Kabataan · Pilar, Diplahan, Zamboanga Sibugay
+          </div>
+          <div class="exp-desc">
+            Handles documentation, communications, and administrative tasks for the youth council — demonstrating leadership and community engagement at the local level.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PROJECTS
+     HOW TO ADD YOUR PHOTOS:
+       1. Put your image files inside the  images/  folder
+       2. Replace the src="images/YOUR-FILE.jpg" below with
+          the actual filename of your screenshot or photo
+       3. Update the title, description, and stack tags too!
+     ============================================================ -->
+<section id="projects">
+  <div class="section-inner fade-in">
+    <div class="section-label">My work</div>
+    <h2 class="section-title">Things I've built.</h2>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <!--
+            Replace src below with your actual screenshot.
+            Example: src="images/capstone-screenshot.jpg"
+          -->
+          <img
+            class="project-img"
+            src="images/project1.jpg"
+            alt="Capstone Web System screenshot"
+            loading="lazy"
+          >
+        </div>
+        <div class="project-body">
+          <div class="project-type">Web System</div>
+          <div class="project-title">Capstone Web System</div>
+          <div class="project-desc">
+            A full-stack web system developed as my BS IT capstone, combining a clean frontend interface with a robust PHP/MySQL backend.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">MySQL</span>
+            <span class="stack-tag">HTML / CSS</span>
+            <span class="stack-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img
+            class="project-img"
+            src="images/project2.jpg"
+            alt="Siomai King Branding"
+            loading="lazy"
+          >
+        </div>
+        <div class="project-body">
+          <div class="project-type">Graphic Design</div>
+          <div class="project-title">Siomai King Branding</div>
+          <div class="project-desc">
+            Created a cohesive brand identity — menus, signage, and social media graphics — for a local food business in Kabasalan.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Branding</span>
+            <span class="stack-tag">Print Design</span>
+            <span class="stack-tag">Social Media</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img
+            class="project-img"
+            src="images/project3.jpg"
+            alt="Freelance Photography"
+            loading="lazy"
+          >
+        </div>
+        <div class="project-body">
+          <div class="project-type">Photography</div>
+          <div class="project-title">Freelance Photography</div>
+          <div class="project-desc">
+            Years of freelance work capturing events, portraits, and candid moments with an eye for light, composition, and authentic storytelling.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">Events</span>
+            <span class="stack-tag">Portraits</span>
+            <span class="stack-tag">Photo Editing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <img
+            class="project-img"
+            src="images/project4.jpg"
+            alt="Personal Portfolio"
+            loading="lazy"
+          >
+        </div>
+        <div class="project-body">
+          <div class="project-type">Responsive Web</div>
+          <div class="project-title">Personal Portfolio</div>
+          <div class="project-desc">
+            A modern, fully responsive portfolio built to showcase creative and technical work in a distinctive editorial style.
+          </div>
+          <div class="project-stack">
+            <span class="stack-tag">HTML</span>
+            <span class="stack-tag">CSS</span>
+            <span class="stack-tag">JavaScript</span>
+            <span class="stack-tag">Responsive</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SOCIAL LINKS
+     Replace YOUR_USERNAME with your actual handles!
+     ============================================================ -->
+<div id="social">
+  <div class="section-inner socials-inner fade-in">
+    <div class="section-label" style="justify-content:center;max-width:280px;margin:0 auto 0.5rem;">Find me online</div>
+    <p class="socials-title">Let's connect.</p>
+
+    <div class="social-links">
+      <a href="https://facebook.com/YOUR_USERNAME" target="_blank" rel="noopener" class="social-link fb">
+        <svg class="ic" width="18" height="18"><use href="#i-fb"/></svg>
+        Facebook
+      </a>
+      <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener" class="social-link gh">
+        <svg class="ic" width="18" height="18"><use href="#i-gh"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener" class="social-link li">
+        <svg class="ic" width="18" height="18"><use href="#i-li"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact">
+  <div class="section-inner fade-in">
+    <div class="section-label">Get in touch</div>
+    <h2 class="section-title">Let's work together.</h2>
+
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <p>
+          Whether you need a web system, a designer's eye, or someone who can do both — I'd love to hear from you. Let's build something great together.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:theeggiemae@gmail.com" class="contact-link">
+            <svg class="ic" width="18" height="18" style="color:var(--peach)"><use href="#i-mail"/></svg>
+            theeggiemae@gmail.com
+          </a>
+          <a href="tel:09957551162" class="contact-link">
+            <svg class="ic" width="18" height="18" style="color:var(--peach)"><use href="#i-phone"/></svg>
+            0995 755 1162
+          </a>
+          <div class="contact-link" style="cursor:default;">
+            <svg class="ic" width="18" height="18" style="color:var(--peach)"><use href="#i-pin"/></svg>
+            Igpit, Opol, Misamis Oriental
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="name">Your name</label>
+          <input id="name" type="text" class="form-input" placeholder="Jane Dela Cruz">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email address</label>
+          <input id="email" type="email" class="form-input" placeholder="you@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea id="message" class="form-textarea" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button class="form-submit" id="sendBtn">
+          <svg class="ic" width="16" height="16"><use href="#i-send"/></svg>
+          Send message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <span class="footer-name">Edgie Mae P. Baylon</span>
+  <span class="footer-copy">© 2025 · BS IT Graduate · Web Developer · Photographer</span>
+</footer>
+
+
+<!-- Script -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
